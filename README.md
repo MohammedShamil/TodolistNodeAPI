@@ -1,4 +1,4 @@
-## Nodejs in 10 minutes
+## Read write data to Azure Comos DB using node.js
 
 clone the project
 
@@ -9,4 +9,3 @@ clone the project
 
 * npm run start
 
-:)
