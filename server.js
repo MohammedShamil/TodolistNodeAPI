@@ -6,7 +6,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://restnodejsonmongo:7Y5Qf0Bd2Jdof7JYT0ux3wgtS8ZVgZpDn7W2KHxuR8Xj8qWXBzeO3vQm3UcAYg396NWwKGUL8Ucxdt3YJgdO0A==@restnodejsonmongo.documents.azure.com:10255/todoDB?ssl=true&replicaSet=globaldb');
+mongoose.connect('mongodb://<example>:7Y5Qf0Bd2Jdof7JYT0ux3wg==@example.documents.azure.com:10255/todoDB?ssl=true&replicaSet=globaldb');
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
